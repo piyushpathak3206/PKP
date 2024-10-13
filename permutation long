@@ -7,7 +7,7 @@ int factorial(int n){
 }
 
 int permutation(int n,int r){
- if(n>=r && n!=0)
+ if(n>=r)
    return factorial(n)/factorial(n-r);  
  else
   return 0;
