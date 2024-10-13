@@ -1,0 +1,24 @@
+#include <stdio.h>
+int factorial(int n){
+    int j =1;
+    for(int i = 0;i<n;i++)
+     j = j*(n-i);
+    return j;
+}
+
+int permutation(int n,int r){
+ if(n>=r && n!=0)
+   return factorial(n)/factorial(n-r);  
+ else
+  return 0;
+}
+
+int main()
+{
+int n,r;
+printf("enter value of n and r: \n");
+scanf("%d%d",&n,&r);
+printf("%d",permutation(n,r));
+
+    return 0;
+}
