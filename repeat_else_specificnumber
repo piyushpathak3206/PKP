@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+int n;
+for(int i = 1;i>=1;i++)
+{printf("enter a number(specific value is 7): ");
+scanf("%d",&n);
+switch(n==7){
+case 1:
+ break;
+case 0:
+ continue;
+ 
+}break;}
+return 0;}
